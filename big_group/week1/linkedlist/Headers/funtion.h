@@ -36,4 +36,7 @@ void look();//查看文件中的数据
 void print(link2 *head);//打印链表数据
 void find_mi();//查找单链表中点
 link1* read();//读取文件数据，构建单链表
+int link_num(link1 *head);//计算链表长度,返回int
+void link_tran();//单链表奇偶调换
+int is_cycle();//判断链表是否成环
 #endif 
